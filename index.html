@@ -9,33 +9,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/output.css">
 </head>
 
 <body>
 
-    <section class="hero">
-        <h1>Encontre o tênis que combina com você.</h1>
-        <a href="" class="btn">Comprar agora</a>
+    <section
+        class="min-h-dvh bg-[url(/images/banner0.jpg)] bg-no-repeat bg-cover bg-center p-(--spacing-md) flex flex-col justify-center items-start gap-(--spacing-md)">
+        <h1 class="font-(--font-lg) text-(--color-light) w-1/2 text-balance">Encontre o tênis que combina com você.</h1>
+        <a href=""
+            class="no-underline text-(--color-dark) bg-(--color-light) py-(--spacing-sm) px-(--spacing-lg) rounded-md text-(length:--font-sm) font-semibold">Comprar
+            agora</a>
     </section>
 
-    <section class="container grid-01">
-        <div class="box-1">
-            <img src="./images/tenis01.jpg" alt="compre seu tênis">
-            <a href="" class="btn">Comprar agora</a>
+    <section
+        class="w-largura my-(--spacing-xl) mx-auto text-center grid grid-cols-3 gap-y-(--spacing-md) gap-x-(--spacing-lg)">
+        <div class="relative">
+            <img class="rounded-md" src="./images/tenis01.jpg" alt="compre seu tênis">
+            <a href=""
+                class="no-underline text-(--color-dark) bg-(--color-light) py-(--spacing-sm) px-(--spacing-lg) rounded-md text-(length:--font-sm) font-semibold absolute bottom-(--spacing-md) left-(--spacing-md)">Comprar
+                agora</a>
         </div>
-        <div class="box-1">
-            <img src="./images/tenis02.jpg" alt="compre seu tênis">
-            <a href="" class="btn">Comprar agora</a>
+        <div class="relative">
+            <img class="rounded-md" src="./images/tenis02.jpg" alt="compre seu tênis">
+            <a href=""
+                class="no-underline text-(--color-dark) bg-(--color-light) py-(--spacing-sm) px-(--spacing-lg) rounded-md text-(length:--font-sm) font-semibold absolute bottom-(--spacing-md) left-(--spacing-md)">Comprar
+                agora</a>
         </div>
-        <div class="box-1">
-            <img src="./images/tenis03.jpg" alt="compre seu tênis">
-            <a href="" class="btn">Comprar agora</a>
+        <div class="relative">
+            <img class="rounded-md" src="./images/tenis03.jpg" alt="compre seu tênis">
+            <a href=""
+                class="no-underline text-(--color-dark) bg-(--color-light) py-(--spacing-sm) px-(--spacing-lg) rounded-md text-(length:--font-sm) font-semibold absolute bottom-(--spacing-md) left-(--spacing-md)">Comprar
+                agora</a>
         </div>
     </section>
 
-    <section class="logos">
-        <div class="logos-slide">
+    <section class="logos overflow-hidden flex group">
+        <div class="logos-slide flex items-center justify-center shrink-0 animate-slide group-hover:paused">
             <a href=""><img src="./images/marcas/adidas.webp" alt="Logo Adidas" loading="lazy"></a>
             <a href=""><img src="./images/marcas/asics.webp" alt="Logo Asics"></a>
             <a href=""><img src="./images/marcas/converse.webp" alt="Logo Converse"></a>
