@@ -12,6 +12,7 @@
     --spacing-xl: 4rem;
     --radius-md: 1rem;
     --spacing-largura: 90%;
+    --spacing-altura: 80px;
 
     --animate-slide: slide 10s linear infinite;
 
@@ -24,4 +25,8 @@
             transform: translateX(-100%);
         }
     }
+}
+
+@utility paused {
+    animation-play-state: paused;
 }
