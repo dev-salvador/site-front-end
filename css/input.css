@@ -3,16 +3,20 @@
 @theme {
     --font-body: "Urbanist", sans-serif;
     --color-light: #F8E7D4;
+    --color-borda: #F2F2F2;
     --color-dark: #342717;
-    --font-sm: 1.2rem;
-    --font-lg: clamp(2.5rem, 5vw + 1rem, 6rem);
+    --text-sm: 1.2rem;
+    --text-lg: clamp(2.5rem, 5vw + 1rem, 6rem);
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
     --spacing-lg: 3rem;
     --spacing-xl: 4rem;
     --radius-md: 1rem;
     --spacing-largura: 90%;
+    --spacing-responsive-w: 80%;
     --spacing-altura: 80px;
+    --spacing-grid2: repeat(auto-fit, minmax(250px, 1fr));
+    --my-autorow: 400px;
 
     --animate-slide: slide 10s linear infinite;
 
