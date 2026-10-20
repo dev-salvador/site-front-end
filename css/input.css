@@ -16,6 +16,7 @@
     --spacing-responsive-w: 80%;
     --spacing-altura: 80px;
     --spacing-grid2: repeat(auto-fit, minmax(250px, 1fr));
+    --spacing-grid01: repeat(3, 1fr);
     --my-autorow: 400px;
 
     --animate-slide: slide 10s linear infinite;
